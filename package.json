@@ -7,9 +7,27 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sam <sam-irl>",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/sam-irl/permjs.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/sam-irl/permjs/issues"
+  },
+  "homepage": "https://github.com/sam-irl/permjs",
+  "keywords": [
+    "mathematics",
+    "maths",
+    "math",
+    "permutation",
+    "combination",
+    "factorial",
+    "pascal",
+    "pascal's triangle",
+    "triangle",
+    "binomial",
+    "binomial coefficients",
+    "binomials"
+  ]
 }
