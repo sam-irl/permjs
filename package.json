@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sam <sam-irl>",
+  "author": "Sam <sam-irl@github> <samirl@npm>",
   "license": "MIT",
   "repository": {
     "type": "git",
