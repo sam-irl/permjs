@@ -20,9 +20,9 @@ nPr = n!/(n - r)!
 ```
 #### Implementation
 ```javascript
-var permjs = require('permjs');
+const { permutation } = require('permjs');
 
-permjs.permutation(5, 2); // 5 nPr 2 => 20
+permutation(5, 2); // 5 nPr 2 => 20
 ```
 ### Combination
 #### Purpose
@@ -33,9 +33,9 @@ nCr = n!/(n - r)!r!
 ```
 #### Implementation
 ```javascript
-var permjs = require('permjs');
+const { combination } = require('permjs');
 
-permjs.combination(5, 2); // 5 nCr 2 => 10
+combination(5, 2); // 5 nCr 2 => 10
 ```
 ### Factorial
 #### Purpose
@@ -48,9 +48,9 @@ n! = n * (n - 1) * (n - 2) ... * 1
 ```
 #### Implementation
 ```javascript
-var permjs = require('permjs');
+const { factorial } = require('permjs');
 
-permjs.factorial(5); // 5! => 120
+factorial(5); // 5! => 120
 ```
 ### Pascal's Triangle
 #### Purpose
@@ -68,7 +68,7 @@ row[5]:    1 5 10 10 5 1
 ...etc
 #### Implementation
 ```javascript
-var permjs = require('permjs');
+const { pascal } = require('permjs');
 
-permjs.pascal(5); // row[5] => [1, 5, 10, 10, 5, 1]
+pascal(5); // row[5] => [1, 5, 10, 10, 5, 1]
 ```
